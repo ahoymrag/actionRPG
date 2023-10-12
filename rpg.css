@@ -86,3 +86,41 @@ body {
     color: #666;
     margin-bottom: 10px;
 }
+
+#logo, #title {
+    width: 100%;
+    max-width: 600px; /* adjust this value as needed */
+    height: auto;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    #logo, #title {
+        width: 100%;
+        mix-blend-mode: darken;
+    }
+}
+
+#about {
+    background-color: #f9f9f9;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+#about h1, #about h2 {
+    color: #333;
+}
+
+#about p {
+    color: #666;
+}
+
+#about a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+#about a:hover {
+    text-decoration: underline;
+}
